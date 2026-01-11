@@ -5,9 +5,9 @@ public class Ternarios {
 
 
         /*
-        * Ternarios: Sâo maneiras de reduzir o codigo
-        * variavel = (condição) ? valorSeVerdadeiro: valorFalso;
-        * */
+         * Ternarios: Sâo maneiras de reduzir o codigo
+         * variavel = (condição) ? valorSeVerdadeiro: valorFalso;
+         * */
 
 
 
