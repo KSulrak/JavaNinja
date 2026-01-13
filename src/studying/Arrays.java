@@ -9,6 +9,10 @@ public class Arrays {
         ninja[2] = "Akali";
         ninja[3] = "Kakashi";
 
+        int[] numeros = {1, 2, 3, 4};
+
+
+        System.out.println(numeros[0]);
         System.out.println(ninja[3]);
 
     }
