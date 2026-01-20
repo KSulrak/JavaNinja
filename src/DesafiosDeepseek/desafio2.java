@@ -13,10 +13,10 @@ public class desafio2 {
         }
         System.out.println(soma);
 
-        // Somandos os numeros pares de 1 a 50
+        // Somandos os numeros pares de 1 a 100
         int somaPar = 0;
 
-        for (int i = 0; i <= 50; i+= 2) {
+        for (int i = 0; i <= 100; i+= 2) {
             somaPar += i;
             
         }
