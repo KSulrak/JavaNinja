@@ -9,5 +9,9 @@ public class testes {
 
         System.out.println(testes);
 
+
+
+        String teste2 = "aqui tem outro valor";
+
     }
 }
