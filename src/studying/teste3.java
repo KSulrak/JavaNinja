@@ -3,7 +3,10 @@ package studying;
 public class teste3 {
     static void main() {
 
-        boolean duro = true;
+
+        //meme do twitter que eu quis refazer em java
+
+        boolean duro;
 
         if (duro) {
             System.out.println("Dorme");
