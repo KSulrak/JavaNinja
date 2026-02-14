@@ -45,7 +45,7 @@ public class notasMais {
         }
 
 
-        // printando todos os valores
+        // printando todos os valores e mostrando o resultado final da media
         System.out.println("\n=== RESULTADOS ===");
         System.out.println("Total de notas: " + notasQuantidade);
 
