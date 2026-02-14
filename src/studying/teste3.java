@@ -6,7 +6,7 @@ public class teste3 {
 
         //meme do twitter que eu quis refazer em java
 
-        boolean duro;
+        boolean duro = true;
 
         if (duro) {
             System.out.println("Dorme");
