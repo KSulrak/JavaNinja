@@ -17,7 +17,7 @@ public class notasMais {
 
         // laço de repetição onde o usuaria vai inserir todas as notas
         for (int i = 0; i < notasQuantidade; i++) {
-            System.out.println("Insira a nota: " + (i + 1) + ": ");
+            System.out.println("Insira a nota " + (i + 1) + ": ");
             notas[i] = scanner.nextDouble();
         }
 
