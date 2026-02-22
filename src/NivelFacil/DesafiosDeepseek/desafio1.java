@@ -1,4 +1,4 @@
-package DesafiosDeepseek;
+package NivelFacil.DesafiosDeepseek;
 
 public class desafio1 {
     static void main() {

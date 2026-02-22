@@ -1,4 +1,4 @@
-package Condicoes;
+package NivelFacil.Condicoes;
 
 public class LacosDeRepeticao {
     static void main() {

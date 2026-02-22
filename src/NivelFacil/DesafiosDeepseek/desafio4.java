@@ -1,4 +1,4 @@
-package DesafiosDeepseek;
+package NivelFacil.DesafiosDeepseek;
 
 import java.util.Scanner;
 

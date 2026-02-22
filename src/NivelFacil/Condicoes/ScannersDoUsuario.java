@@ -1,7 +1,6 @@
-package Condicoes;
+package NivelFacil.Condicoes;
 
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class ScannersDoUsuario {
