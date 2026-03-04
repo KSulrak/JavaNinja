@@ -26,6 +26,8 @@ public class Ninja {
     * Metodo Int que vai retornar um int
     * */
 
+
+    //
     public int anosParaSeTornarHokage(int idadeMinimaParaSerHokage) {
         return idadeMinimaParaSerHokage - idade;
     }
