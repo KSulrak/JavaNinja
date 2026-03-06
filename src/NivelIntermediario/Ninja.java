@@ -27,7 +27,7 @@ public class Ninja {
     * */
 
 
-    //
+    // a
     public int anosParaSeTornarHokage(int idadeMinimaParaSerHokage) {
         return idadeMinimaParaSerHokage - idade;
     }
