@@ -15,10 +15,11 @@ public class Main {
         Sasuke.idade = 20;
         Sasuke.shariganAtivado();
 
-        Ninja Naruto = new Ninja();
+        Uzumaki Naruto = new Uzumaki();
         Naruto.nome = "Naruto Uzumaki";
         Naruto.aldeia = "Aldeia da folha";
         Naruto.idade = 19;
+        Naruto.ModoSabioAtivado();
 
     }
 }
