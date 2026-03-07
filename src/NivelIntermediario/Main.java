@@ -21,5 +21,11 @@ public class Main {
         Naruto.idade = 19;
         Naruto.ModoSabioAtivado();
 
+        Haruno Sakura = new Haruno();
+        Sakura.nome = "Sakura Haruno";
+        Sakura.aldeia = "Aldeia da folha";
+        Sakura.idade = 17;
+        Sakura.AtivarCura();
+
     }
 }
