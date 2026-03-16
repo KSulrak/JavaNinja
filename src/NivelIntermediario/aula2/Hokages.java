@@ -11,12 +11,12 @@ public class Hokages {
     double altura;
 
 
-    // No args constructor
+    // No args constructor - um construtor sem argumentos
     public Hokages() {
         // Construtor vazio, sem argumentos
     }
 
-        // Croar um construtor com argumentos
+        // Criar um construtor com argumentos
         public Hokages(String nome) {
             this.nome = nome;
         }
