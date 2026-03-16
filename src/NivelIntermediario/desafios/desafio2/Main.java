@@ -3,17 +3,15 @@ package NivelIntermediario.desafios.desafio2;
 public class Main {
     static void main() {
 
-        NinjaBasico naruto = new NinjaBasico("Naruto", 17, "Modo Sabio");
+        Ninja naruto = new NinjaBasico("Naruto", 18, "Modo Sábio");
+        Ninja minato = new NinjaAvancado("Minato", 38, "Hiraishin", "Rasengan");
 
         naruto.mostrarInformacoes();
         naruto.executarHabilidade();
 
-        NinjaAvancado paiDoNaruto = new NinjaAvancado("Pai do Naruto", 38, "Modo sabio", "sair pra comprar cigarro");
+        System.out.println("---------------");
 
-        paiDoNaruto.mostrarInformacoes();
-        paiDoNaruto.executarHabilidade();
-
-
-
+        minato.mostrarInformacoes();
+        minato.executarHabilidade();
     }
 }
