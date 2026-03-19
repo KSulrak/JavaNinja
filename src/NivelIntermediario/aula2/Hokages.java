@@ -1,6 +1,6 @@
 package NivelIntermediario.aula2;
 
-public class Hokages {
+public abstract class Hokages {
 
     String nome;
     int idade;
@@ -10,6 +10,7 @@ public class Hokages {
     double saldoBancario;
     double altura;
 
+    public abstract void sabedoriaHokage();
 
     // No args constructor - um construtor sem argumentos
     public Hokages() {
