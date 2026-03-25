@@ -9,7 +9,7 @@ public interface NinjaInterface {
     String aldeia = "Aldeia da folha";
     int idade = 16;
 
-    // Ele é obrigatoriamente abstratoa
+    // Ele é obrigatoriamente abstrato
     public void tacaUmaShuriken();
 
 }
