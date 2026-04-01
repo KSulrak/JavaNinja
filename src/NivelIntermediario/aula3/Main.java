@@ -3,13 +3,17 @@ package NivelIntermediario.aula3;
 public class Main {
     static void main() {
 
-        Uzumaki naruto = new Uzumaki();
-        naruto.tacaUmaShuriken();
 
-        Uchiha sasuke = new Uchiha();
-        sasuke.nome = "Sasuke Uchiha";
-        sasuke.nomeDoNinja();
-        sasuke.tacarKunai();
+        // Obj Uzumaki
+        Uzumaki Naruto = new Uzumaki();
+        Naruto.nome = "Naruto Uzumaki";
+        Naruto.habilidadeEspecial();
+        Naruto.EstrategiaDeBatalhaNinja();
+
+        // Obj Uchiha
+        Uchiha Sasuke = new Uchiha();
+        Sasuke.nome = "Sasuke Uchiha";
+        Sasuke.habilidadeEspecial();
 
     }
 }

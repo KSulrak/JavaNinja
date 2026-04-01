@@ -1,16 +1,14 @@
 package NivelIntermediario.aula3;
 
-public class Uzumaki implements NinjaInterface{
+public class Uzumaki extends Ninja{
 
-    public void tacaUmaShuriken() {
-        System.out.println("Eu taquei uma Shuriken");
+
+    // Sobreescrever o metodo da classe Ninja
+    @Override
+    public void habilidadeEspecial() {
+        System.out.println("Meu nome é: " + nome + " e esse é meu ataque especial");
     }
 
-
-    /*@Override
-    public void nomeDoNinja() {
-        System.out.println("Meu nome é: " + nome);
-    }*/
 
 
 }

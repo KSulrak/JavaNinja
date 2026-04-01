@@ -1,18 +1,20 @@
 package NivelIntermediario.aula3;
 
-public abstract class Ninja {
+public abstract class Ninja implements EstrategiaDeBatalha {
 
     String nome;
     String aldeia;
     int idade;
 
-    // Metodo abstrato
-    public abstract void nomeDoNinja();
-
-    // Metodo não abstrato
-    public void tacarKunai() {
-        System.out.println("Eu joguei uma kunai!");
+    public void habilidadeEspecial() {
+        System.out.println("Meu nome é: " + nome + " e esse é meu ataque especial");
     }
 
+
+    // Sobreescrevendo o metodo da interface
+    @Override
+    public void EstrategiaDeBatalhaNinja() {
+        System.out.println("Essa é minha estrategia de batalha");
+    }
 
 }
