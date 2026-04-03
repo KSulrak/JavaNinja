@@ -3,6 +3,14 @@ package NivelIntermediario.aula3;
 public class Uchiha extends Ninja{
 
 
+    public Uchiha() {
+
+    }
+
+    public Uchiha(String nome, String aldeia, int idade) {
+        super(nome, aldeia, idade);
+    }
+
     public void estrategiaDeBatalhaNinja() {
         System.out.println("Essa é minha estrategia de batalha");
     }
