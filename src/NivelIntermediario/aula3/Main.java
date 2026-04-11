@@ -20,11 +20,22 @@ public class Main {
         Sasuke.aldeia = "Aldeia da folha";
         Sasuke.idade = 17;
         Sasuke.habilidadeEspecial();
+        Sasuke.shariganAtivado();
 
         // Obj Uchiha 2
 
         Uchiha Itachi = new Uchiha("Itcha Uchiha", "Aldeia da folha", 27);
         Itachi.habilidadeEspecial();
+
+        // Obj hatake
+
+        Hatake kakashi = new Hatake();
+        kakashi.nome = "Kakashi Hatake";
+        kakashi.aldeia = "Aldeia da folha";
+        kakashi.idade = 48;
+        kakashi.boasVindas();
+        kakashi.shariganAtivado();
+        kakashi.ninjaDeElite();
 
     }
 }

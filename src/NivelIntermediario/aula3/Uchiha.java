@@ -1,6 +1,6 @@
 package NivelIntermediario.aula3;
 
-public class Uchiha extends Ninja{
+public class Uchiha extends Ninja implements ShariganInterface{
 
 
     public Uchiha() {
@@ -21,4 +21,8 @@ public class Uchiha extends Ninja{
         System.out.println("Meu nome é: " + nome + " e esse é meu ataque especial");
     }
 
+    // Esse metodo vem direto da interface!
+    public void shariganAtivado() {
+        System.out.println(nome + ": Ativou o sharigan");
+    }
 }
