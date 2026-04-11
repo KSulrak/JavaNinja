@@ -36,6 +36,7 @@ public class Main {
         kakashi.boasVindas();
         kakashi.shariganAtivado();
         kakashi.ninjaDeElite();
+        kakashi.hokageAtivo();
 
     }
 }

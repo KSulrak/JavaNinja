@@ -1,6 +1,6 @@
 package NivelIntermediario.aula3;
 
-public class Hatake extends Ninja implements ShariganInterface, AnbuInterface{
+public class Hatake extends Ninja implements ShariganInterface, AnbuInterface, HokageInterface{
 
     public void boasVindas() {
         System.out.println(nome + ": eu sou um Hatake");
@@ -13,5 +13,9 @@ public class Hatake extends Ninja implements ShariganInterface, AnbuInterface{
 
     public void ninjaDeElite() {
         System.out.println(nome + ": eu sou um ninja de elite da Anbu");
+    }
+
+    public void hokageAtivo() {
+        System.out.println(nome + ": eu sou um hokage");
     }
 }
