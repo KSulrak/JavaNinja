@@ -15,12 +15,8 @@ public class Main {
         Naruto.EstrategiaDeBatalhaNinja();
 
         // Obj Uchiha
-        Uchiha Sasuke = new Uchiha();
-        Sasuke.nome = "Sasuke Uchiha";
-        Sasuke.aldeia = "Aldeia da folha";
-        Sasuke.idade = 17;
+        Uchiha Sasuke = new Uchiha("Sasuke Uchiha", "Aldeia da folha", 18, 20, NivelNinja.CHUUNIN);
         Sasuke.habilidadeEspecial();
-        Sasuke.shariganAtivado();
 
         // Obj Uchiha 2
 
@@ -37,6 +33,12 @@ public class Main {
         kakashi.shariganAtivado();
         kakashi.ninjaDeElite();
         kakashi.hokageAtivo();
+
+        // Obj Uchiha 3
+
+        Uchiha madara = new Uchiha("Madara", "Aldeia da folha", 45, 900, NivelNinja.KAGE);
+        madara.habilidadeEspecial();
+        madara.estrategiaDeBatalhaNinja();
 
     }
 }
