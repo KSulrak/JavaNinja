@@ -29,4 +29,22 @@ public class Uchiha extends Ninja implements ShariganInterface{
     public void shariganAtivado() {
         System.out.println(nome + ": Ativou o sharigan");
     }
+
+    @Override
+    public void inteligenciaDeCombate() {
+        System.out.println(nome + " Essa é minha inteligencia de combate");
+    }
+
+    @Override
+    public void inteligenciaDeCombate(int qi) {
+        if (qi > 150) {
+            System.out.println("Seu QI é: " + qi + "  e você é um genio");
+        } else if (qi >= 130) {
+            System.out.println("Seu QI é: " + qi + "  e você é um ninja promissor");
+        } else {
+            System.out.println("Seu QI é: " + qi + "  e você precisa treinar mais suas estrategias");
+        }
+    }
+
+
 }

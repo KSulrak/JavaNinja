@@ -40,5 +40,6 @@ public class Main {
         madara.habilidadeEspecial();
         madara.estrategiaDeBatalhaNinja();
 
+
     }
 }
