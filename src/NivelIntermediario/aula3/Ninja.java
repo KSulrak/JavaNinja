@@ -42,7 +42,7 @@ public abstract class Ninja implements EstrategiaDeBatalha {
         System.out.println("Essa é minha estrategia de batalha");
     }
 
-    // Inteligencia de combate - metodo padrão
+    // Inteligencia de combate - metodo padrã
 
     public void inteligenciaDeCombate() {
         System.out.println(nome + " Essa é minha inteligencia de combate");
