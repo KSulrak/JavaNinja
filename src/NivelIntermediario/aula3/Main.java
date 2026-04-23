@@ -41,7 +41,7 @@ public class Main {
         madara.estrategiaDeBatalhaNinja();
         // Metodo comum
         madara.inteligenciaDeCombate();
-        // Metodo sobrecarregado
+        // Metodo sobrecarregadoo
         madara.inteligenciaDeCombate(90);
     }
 }
