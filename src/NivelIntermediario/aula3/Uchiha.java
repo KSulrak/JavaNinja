@@ -46,5 +46,10 @@ public class Uchiha extends Ninja implements ShariganInterface{
         }
     }
 
+    // Metodo sem Override
+    public void metodoProvisorio() {
+        System.out.println("Teste na classe Uchiha");
+    }
+
 
 }

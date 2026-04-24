@@ -22,6 +22,7 @@ public class Main {
 
         Uchiha Itachi = new Uchiha("Itcha Uchiha", "Aldeia da folha", 27);
         Itachi.habilidadeEspecial();
+        Itachi.metodoProvisorio();
 
         // Obj hatake
 
@@ -44,4 +45,7 @@ public class Main {
         // Metodo sobrecarregado
         madara.inteligenciaDeCombate(90);
     }
+
+
+
 }
