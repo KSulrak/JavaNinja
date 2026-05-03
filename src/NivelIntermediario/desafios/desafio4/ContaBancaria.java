@@ -12,9 +12,7 @@ public abstract class ContaBancaria implements Conta {
     public abstract void depositar(double valor);
 
     @Override
-    public void consultarSaldo() {
-
-    }
+    public abstract void consultarSaldo();
 
     public ContaBancaria(String nome, String aldeia, int idade, double saldo, TipoConta tipoConta) {
         this.nome = nome;

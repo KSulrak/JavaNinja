@@ -18,6 +18,7 @@ public class main {
         BancoKonoha banco = new BancoKonoha();
 
         banco.transferir(naruto, sasuke, 200);
+        banco.transferir(naruto, sasuke, 100, 0.99);
 
         naruto.consultarSaldo();
         sasuke.consultarSaldo();
