@@ -1,17 +1,20 @@
 package NivelIntermediario.desafios.desafio4;
 
-public class ContaPoupanca extends ContaCorrente{
-
+public class ContaPoupanca extends ContaBancaria{
 
     @Override
     public void depositar(double valor) {
-        double taxa = 0.01;
-        double valorLiquido = valor * (1 - taxa);
-
-        saldo += valorLiquido;
+        double valorFinal = valor * 0.99;
+        saldo += valorFinal;
+        System.out.println(nome + "Você depositou: " + valorFinal);
     }
 
-    public ContaPoupanca(double saldo) {
-        super(saldo);
+    @Override
+    public void consultarSaldo() {
+        System.out.println(nome + " Seu saldo é de: " + saldo);
+    }
+
+    public ContaPoupanca(String nome, String aldeia, int idade, double saldo) {
+        super(nome, aldeia, idade, saldo, TipoConta.POUPANCA);
     }
 }
