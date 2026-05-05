@@ -14,5 +14,6 @@ public class Main {
         System.out.println("----------------Sasuke Uchiha----------------");
         Uchiha sasuke = new Uchiha("Sasuke Uchiha", "Aldeia da folha", 18, 50, NivelNinja.JOUNIN);
         System.out.println(sasuke);
+        sasuke.tacarKunai();
     }
 }
