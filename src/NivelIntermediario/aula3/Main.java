@@ -6,6 +6,9 @@ public class Main {
         System.out.println("----------------Naruto Uzumaki----------------");
         Uzumaki naruto = new Uzumaki("Naruto Uzumaki", "Aldeia da folha", 16, 30, NivelNinja.JOUNIN);
         System.out.println(naruto);
+        naruto.tacarKunai();
+        System.out.println(naruto.altura);
+
 
 
         System.out.println("----------------Sasuke Uchiha----------------");

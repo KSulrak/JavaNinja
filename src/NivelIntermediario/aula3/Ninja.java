@@ -10,10 +10,15 @@ public abstract class Ninja implements EstrategiaDeBatalha {
     int idade;
     int numeroDeMissoesConcluidas;
     NivelNinja rank;
+    final double altura = 2.10;
 
     public Ninja() {
     }
 
+    // TODO NINJA VAI FAZER OBRIGATORIAMENTE
+    final void tacarKunai() {
+        System.out.println("EU SOU UM METODO DA CLASSE MÃE");
+    }
 
     // Metodo existente: Primeiro metodo
     public Ninja(String nome, String aldeia, int idade) {

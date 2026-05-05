@@ -23,5 +23,6 @@ public class main {
         naruto.consultarSaldo();
         sasuke.consultarSaldo();
 
+
     }
 }
