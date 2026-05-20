@@ -10,6 +10,11 @@ public class Main {
         System.out.println(naruto.altura);
 
 
+        Anbu ninjaAnbu = new Anbu();
+        ninjaAnbu.anbu();
+        ninjaAnbu.nome = "Ninja aleatorio";
+
+
 
         System.out.println("----------------Sasuke Uchiha----------------");
         Uchiha sasuke = new Uchiha("Sasuke Uchiha", "Aldeia da folha", 18, 50, NivelNinja.JOUNIN);
